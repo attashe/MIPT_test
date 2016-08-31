@@ -6,7 +6,7 @@
     left: 0;
 }
 .header {
-    background-color: #0066cc;
+    background-color: #0072bc;
 }
 .head {
     display: flex;
@@ -20,7 +20,11 @@
 .head img:last-child {
     justify-self: flex-end;
     align-self: flex-end;
-    height: 4em;
+    height: 5em;
+}
+.head img {
+    margin-right: 1em;
+    height: 5em;
 }
 .epigraph {
     position: absolute;
@@ -29,6 +33,7 @@
     top: 1%;
     left: 1%;
     width: 50%;
+    z-index: 1;
 }
 .head p {
 
@@ -76,6 +81,7 @@
 }
 
 .mipt-lk {
+    position: relative;
     width: 100%;
 }
 
@@ -85,11 +91,10 @@
 .sitename {
     position: absolute;
     color: white;
-    margin-top: -15%;
-    font-size: 3em;
-    font-size: 250%;
-    font-family: "Yu Gothic", Arial;
+    margin-top: -13%;
+    font-size: 350%;
     font-weight: bold;
+    font-family: "Yu Gothic", Arial !important;
     /* height: 13%; */
     background-color: rgba(51, 51, 51, 0.6);
 }
