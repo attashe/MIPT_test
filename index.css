@@ -1,5 +1,9 @@
+a {
+    text-decoration: none;
+}
+
 .wrapper {
-    margin-top: 0px;
+    margin-top: 0;
     width: 100%;
     position: absolute;
     top: 0;
@@ -7,6 +11,8 @@
 }
 .header {
     background-color: #0072bc;
+    box-shadow: 0 5px 10px -5px;
+    margin-bottom: 5px;
 }
 .head {
     display: flex;
@@ -20,15 +26,18 @@
 .head img:last-child {
     justify-self: flex-end;
     align-self: flex-end;
-    height: 5em;
+    /*height: 5em;*/
 }
 .head img {
     margin-right: 1em;
-    height: 5em;
+    height: 4em;
 }
+
 .epigraph {
+    display: none;
     position: absolute;
-    font-size: small;
+    font-family: "Lucida Calligraphy", serif;
+    font-size: inherit;
     color: white;
     top: 1%;
     left: 1%;
@@ -47,7 +56,7 @@
     align-items: flex-start;
 }
 .main-menu h2 {
-    font-family: Tahoma, Arial;
+    font-family: Tahoma, sans-serif;
     font-size: larger;
 
 }
@@ -61,32 +70,38 @@
 }
 
 .bot-menu {
-    max-width: 19%;
+    width: 22%;
 }
 
 .bot-menu a{
     display: table-cell;
     text-align: center;
     vertical-align: middle;
-    font-family: "Microsoft Sans Serif", Arial;
-    font-weight: bold;
+    font-family: "Microsoft Sans Serif", sans-serif;
+    font-weight: bolder;
     font-size: larger;
     color: white;
-    width: 6em;
+    width: 7em;
     height: 2em;
     background-color: #0072bc;
     cursor: pointer;
+    font-stretch: expanded;
+    box-shadow: 0 0 2px 0 inset;
 }
 .bot-menu a:hover{
     background-color: #3366cc;
 }
 .bot-menu p{
-    font-family: "Franklin Gothic Medium", Arial;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: smaller;
+    /*font-weight: bold;*/
 }
 
 .mipt-lk {
+    float: left;
     position: relative;
     width: 100%;
+    margin-bottom: 5px;
 }
 
 .mipt-lk img {
@@ -96,13 +111,47 @@
     position: absolute;
     color: white;
     margin-top: -13%;
-    font-size: 350%;
-    font-weight: bold;
-    font-family: "Yu Gothic", Arial !important;
+    padding: 0 10px;
+    font-size: 420%;
+    /*font-stretch: ultra-condensed;*/
+    /*font-weight: bold;*/
+    /*font-family: "Yu Gothic", sans-serif;*/
+    font-family: "Franklin Gothic Book", Arial, sans-serif;
     /* height: 13%; */
-    background-color: rgba(51, 51, 51, 0.6);
+    /*transform: scaleX(1.1);*/
+    background-color: rgba(30, 30, 30, 0.6);
 }
 main {
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 1000px;
+}
+footer {
+    font-size: smaller;
+    border-top: 3px solid #0072bc;
+}
+.links {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /*background: rgba(0, 114, 188, 0.15);*/
+
+}
+.links > div {
+    max-width: 30%;
+    padding: 5px 20px;
+}
+
+.head-wrapper {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+footer {
+    margin: 0 auto;
+    max-width: 1000px;
+    margin-top: 10vh;
+}
+
+.flex-container {
+    display: flex;
 }

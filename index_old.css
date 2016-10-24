@@ -1,0 +1,108 @@
+.wrapper {
+    margin-top: 0px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.header {
+    background-color: #0072bc;
+}
+.head {
+    display: flex;
+    margin: 0 auto;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: center;
+    opacity: 0.9;
+
+}
+.head img:last-child {
+    justify-self: flex-end;
+    align-self: flex-end;
+    height: 5em;
+}
+.head img {
+    margin-right: 1em;
+    height: 5em;
+}
+.epigraph {
+    position: absolute;
+    font-size: small;
+    color: white;
+    top: 1%;
+    left: 1%;
+    width: 50%;
+    z-index: 1;
+}
+.head p {
+
+}
+.main-menu {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 1.5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.main-menu h2 {
+    font-family: Tahoma, Arial;
+    font-size: larger;
+
+}
+
+.main-menu h2:focus {
+    border-bottom: 2px solid #0072bc;
+}
+
+.main-menu div {
+
+}
+
+.bot-menu {
+    max-width: 19%;
+}
+
+.bot-menu a{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    font-family: "Microsoft Sans Serif", Arial;
+    font-weight: bold;
+    font-size: larger;
+    color: white;
+    width: 6em;
+    height: 2em;
+    background-color: #0072bc;
+    cursor: pointer;
+}
+.bot-menu a:hover{
+    background-color: #3366cc;
+}
+.bot-menu p{
+    font-family: "Franklin Gothic Medium", Arial;
+}
+
+.mipt-lk {
+    position: relative;
+    width: 100%;
+}
+
+.mipt-lk img {
+    width: 100%;
+}
+.sitename {
+    position: absolute;
+    color: white;
+    margin-top: -13%;
+    font-size: 350%;
+    font-weight: bold;
+    font-family: "Yu Gothic", Arial !important;
+    /* height: 13%; */
+    background-color: rgba(51, 51, 51, 0.6);
+}
+main {
+    margin: 0 auto;
+    max-width: 1200px;
+}
