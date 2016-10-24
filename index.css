@@ -53,7 +53,7 @@
 }
 
 .main-menu h2:focus {
-    border-bottom: 2px solid dodgerblue;
+    border-bottom: 2px solid #0072bc;
 }
 
 .main-menu div {
@@ -74,6 +74,10 @@
     color: white;
     width: 6em;
     height: 2em;
+    background-color: #0072bc;
+    cursor: pointer;
+}
+.bot-menu a:hover{
     background-color: #3366cc;
 }
 .bot-menu p{
@@ -97,4 +101,8 @@
     font-family: "Yu Gothic", Arial !important;
     /* height: 13%; */
     background-color: rgba(51, 51, 51, 0.6);
+}
+main {
+    margin: 0 auto;
+    max-width: 1200px;
 }

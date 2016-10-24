@@ -24,11 +24,11 @@
 
 
 <div id="owl-demo" class="owl-carousel owl-theme">
-    <div class="item"><h1>1</h1></div>
-    <div class="item"><h1>2</h1></div>
-    <div class="item"><h1>3</h1></div>
-    <div class="item"><h1>4</h1></div>
-    <div class="item"><h1>5</h1></div>
+    <div class="item"><h1>1</h1><img src="00014.jpg"></div>
+    <div class="item"><h1>2</h1><img src="img_portrait_1.jpg"></div>
+    <div class="item" style="width: 500px;"><h1>3</h1><img src="00014.jpg"></div>
+    <div class="item"><h1>4</h1><img src="img_portrait_1.jpg"></div>
+    <div class="item"><h1>5</h1><img src="img_portrait_1.jpg"></div>
     <div class="item"><h1>6</h1></div>
     <div class="item"><h1>7</h1></div>
     <div class="item"><h1>8</h1></div>
@@ -59,11 +59,7 @@
         var owl = $("#owl-demo");
 
         owl.owlCarousel({
-            items : 10, //10 items above 1000px browser width
-            itemsDesktop : [1000,5], //5 items between 1000px and 901px
-            itemsDesktopSmall : [900,3], // betweem 900px and 601px
-            itemsTablet: [600,2], //2 items between 600 and 0
-            itemsMobile : false // itemsMobile disabled - inherit from itemsTablet option
+
         });
 
         // Custom Navigation Events

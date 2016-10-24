@@ -1,4 +1,5 @@
 #owl-demo .item{
+    position: relative;
     background: #3fbf79;
     padding: 30px 0px;
     margin: 10px;
@@ -7,6 +8,16 @@
     -moz-border-radius: 3px;
     border-radius: 3px;
     text-align: center;
+}
+#owl-demo .item img{
+    height: auto;
+    width: 100%;
+}
+#owl-demo .item::after {
+    display: block;
+    content: "1958";
+    height: 2em;
+    background-color: grey;
 }
 .customNavigation{
     text-align: center;
